@@ -1,3 +1,3 @@
 function my_func(){
- MessageBox.information("hello")   
+ MessageBox.information("au revoir")   
 }
