@@ -1,3 +1,6 @@
 function my_func(){
- MessageBox.information("au revoir")   
+ MessageBox.information("au revoir")
+
+//fait sur github
+ 
 }
