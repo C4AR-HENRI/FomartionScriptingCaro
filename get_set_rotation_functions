@@ -8,3 +8,8 @@ function set_rotation(_peg,angle){
     MessageBox.information()
 
 }
+
+function bt_rotate_90_deegrees(){
+    var _peg = selection.selectedNode(0) 
+    node.setTextAttr(_peg,"ROTATION.ANGLEZ",frameElement.current(),"90")
+}
