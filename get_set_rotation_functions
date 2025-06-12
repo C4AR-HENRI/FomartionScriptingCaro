@@ -1,0 +1,10 @@
+function get_rotation(_peg){
+    var rotation = Node.getTextAttr(_peg,frameElement.current(),"ROTATION.ANGLEZ")
+    return rotation
+}
+
+function set_rotation(_peg,angle){
+    var rotation = Node.setTextAttr(_peg,"ROTATION.ANGLEZ",frameElement.current(),angle)
+    MessageBox.information()
+
+}
